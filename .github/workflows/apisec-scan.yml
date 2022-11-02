@@ -41,7 +41,7 @@ jobs:
           # The name of the project for security scan
           apisec-project: "crAPI"
           # The name of the sarif format result file The file is written only if this property is provided.
-     #     apisec-fail-on-vuln-severity: "High"
+          apisec-fail-on-vuln-severity: "High"
           sarif-result-file: "apisec-results.sarif"
          #    apisec-email-report: true
        - name: Import results
